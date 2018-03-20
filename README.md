@@ -4,9 +4,11 @@
 ；
 
 step1：prepare文件
+
 运行此流程需提供bin/中example.txt格式文件，文件第一列为Patient ID，第二列为sample ID，第三列为样本的fastq文件绝对路径；
 
 step2：running
+
 bash bin/pipeline.sh foldchange值 pvalue值 qvalue值（若以pvalue为差异分析的阈值，qvalue则为NA）
 
 PS：EXAMAPLE/为测试文件；
