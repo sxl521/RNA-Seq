@@ -12,5 +12,3 @@ step1：prepare文件
 step2：running
 
 bash bin/pipeline.sh foldchange值 pvalue值 qvalue值（若以pvalue为差异分析的阈值，qvalue则为NA）
-
-PS：EXAMAPLE/为测试文件；
